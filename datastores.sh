@@ -19,11 +19,11 @@ fi
 brew update
 
 # Install data stores
-brew install mysql
-brew install postgresql
+# brew install mysql
+# brew install postgresql
 brew install mongo
 brew install redis
-brew install elasticsearch
+# brew install elasticsearch
 
 # Install mysql workbench
 # Install Cask
