@@ -108,7 +108,7 @@ brew install woff2
 brew install git
 # brew install git-lfs
 # brew install git-flow
-# brew install git-extras
+brew install git-extras
 brew install hub
 # brew install imagemagick --with-webp
 # brew install lua
@@ -137,8 +137,8 @@ brew install heroku-toolbelt
 heroku update
 
 # Install Cask
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
+# brew install caskroom/cask/brew-cask
+# brew tap caskroom/versions
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
@@ -148,13 +148,13 @@ brew cask install --appdir="/Applications" alfred
 
 # Development tool casks
 # brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" atom
+# brew cask install --appdir="/Applications" atom
 # brew cask install --appdir="/Applications" virtualbox
 # brew cask install --appdir="/Applications" vagrant
 # brew cask install --appdir="/Applications" macdown
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
+# brew cask install --appdir="/Applications" google-chrome
 # brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
@@ -172,7 +172,7 @@ brew cask install --appdir="/Applications" dropbox
 # brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-# brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
 # Install custom stuff
 brew cask install --appdir="/Applications" quitter
@@ -184,18 +184,18 @@ brew cask install --appdir="/Applications" spotify-notifications
 brew cask install --appdir="/Applications" rocket
 brew cask install --appdir="/Applications" robomongo
 brew cask install --appdir="/Applications" rescuetime
-brew cask install --appdir="/Applications" omnifocus
+# brew cask install --appdir="/Applications" omnifocus
 brew cask install --appdir="/Applications" istat-menus
 brew cask install --appdir="/Applications" hyper
 brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="/Applications" flux
-brew cask install --appdir="/Applications" controlplane
+# brew cask install --appdir="/Applications" controlplane
 brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" discord
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" simplenote
 brew cask install --appdir="/Applications" mplayerx
-brew cask install --appdir="/Applications" logitech-options
+# brew cask install --appdir="/Applications" logitech-options
 
 
 # Remove outdated versions from the cellar.

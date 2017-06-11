@@ -18,7 +18,8 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
-brew install node
+brew install eode
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
@@ -28,5 +29,5 @@ brew cleanup
 # npm install -g jshint
 # npm install -g less
 
-gem install jekyll
+# gem install jekyll
 gem install travis
