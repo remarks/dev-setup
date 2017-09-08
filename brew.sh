@@ -142,20 +142,20 @@ heroku update
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
-# brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="~/Applications" iterm2
 # brew cask install --appdir="~/Applications" java
 # brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
 # brew cask install --appdir="/Applications" sublime-text
 # brew cask install --appdir="/Applications" atom
-# brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" virtualbox
 # brew cask install --appdir="/Applications" vagrant
 # brew cask install --appdir="/Applications" macdown
 
 # Misc casks
-# brew cask install --appdir="/Applications" google-chrome
-# brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
@@ -168,8 +168,8 @@ brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" mactex
 
 # Install Docker, which requires virtualbox
-# brew install docker
-# brew install boot2docker
+brew install docker
+brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
@@ -186,7 +186,6 @@ brew cask install --appdir="/Applications" robomongo
 brew cask install --appdir="/Applications" rescuetime
 # brew cask install --appdir="/Applications" omnifocus
 brew cask install --appdir="/Applications" istat-menus
-brew cask install --appdir="/Applications" hyper
 brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="/Applications" flux
 # brew cask install --appdir="/Applications" controlplane
@@ -194,7 +193,8 @@ brew cask install --appdir="/Applications" bartender
 brew cask install --appdir="/Applications" discord
 brew cask install --appdir="/Applications" dash
 brew cask install --appdir="/Applications" simplenote
-brew cask install --appdir="/Applications" mplayerx
+brew cask install --appdir="/Applications" iina
+brew cask install --appdir="/Applications" private-internet-access
 # brew cask install --appdir="/Applications" logitech-options
 
 
