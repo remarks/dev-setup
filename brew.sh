@@ -103,7 +103,7 @@ brew install woff2
 
 # Install other useful binaries.
 # brew install ack
-# brew install dark-mode
+brew install dark-mode
 #brew install exiv2
 brew install git
 # brew install git-lfs
@@ -118,7 +118,7 @@ brew install hub
 # brew install pv
 # brew install rename
 # brew install rhino
-# brew install speedtest_cli
+brew install speedtest_cli
 brew install ssh-copy-id
 # brew install tree
 # brew install webkit2png
@@ -137,8 +137,8 @@ brew install heroku-toolbelt
 heroku update
 
 # Install Cask
-# brew install caskroom/cask/brew-cask
-# brew tap caskroom/versions
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
